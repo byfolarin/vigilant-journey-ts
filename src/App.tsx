@@ -1,7 +1,7 @@
 import './App.css'
 import { Greet } from './Components/Greet'
 import { Person } from './Components/Person'
-import {PersonList} from '/Components/PersonList'
+import { PersonList } from './Components/PersonList'
 
 function App() {
 
@@ -10,29 +10,31 @@ function App() {
     last: 'Wayne',
   }
 
-  const nameList= {
-    {
-      first: 'Bruce'
-      last: 'Wayne'
-    }
+  
+  
+    const nameList = [ 
+      {
+        first: 'Bruce',
+        last: 'Wayne',
+      },
+      {
+        first: 'Clark',
+        last: 'Kent',
+      },
+      {
+        first: 'Princess',
+        last: 'Diana',
+      },
+    ]
+  
 
-    {
-      first: 'Clark'
-      last: 'Kent'
-    }
-
-    {
-      first: 'Princess'
-      last: 'Diana'
-    }
-  }
 
 
   return (
     <>
     <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
     <Person name ={personName} />
-    <PersonList />
+    <PersonList name={nameList}/>
     </>
   )
 }
