@@ -14,11 +14,6 @@ export const PersonList = (props: PersonListProps) =>{
             return(
                 <h2 key={`${name.first}`}>
                 {name.first} {name.last}
-                </h2>
-            )
-           })}
-        </div>
-       
-
-    )
-}
+                </h2>)})}</div>
+                )
+    }
