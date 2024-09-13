@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <Greet />
+    <Greet name='Folarin' />
     </>
   )
 }
