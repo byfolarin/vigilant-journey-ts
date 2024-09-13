@@ -1,12 +1,19 @@
 import './App.css'
 import { Greet } from './Components/Greet'
+import { Person } from './Components/Person'
 
 function App() {
+
+  const personName= {
+    first: 'Bruce',
+    last: 'Wayne',
+  }
 
 
   return (
     <>
-    <Greet name='Folarin' messageCount={20} isLoggedIn={false} />
+    <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
+    <Person name ={personName} />
     </>
   )
 }
