@@ -36,7 +36,7 @@ function App() {
     <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
     <Person name ={personName} />
     <PersonList name={nameList}/>
-    <Status status='loading' />
+    <Status status='success' />
     </>
   )
 }
