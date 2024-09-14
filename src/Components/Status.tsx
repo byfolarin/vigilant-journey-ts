@@ -19,7 +19,7 @@ export const Status = (props: StatusProps) =>{
 
     return(
         <>
-        <h2>Status: {message}</h2>
+        <h2>Status - {message}</h2>
 
         </>
     )
