@@ -4,6 +4,7 @@ import { Person } from './Components/Person'
 import { PersonList } from './Components/PersonList'
 import { Status } from './Components/Status'
 import { Heading } from './Components/Heading'
+import { Oscar } from './Components/Oscar'
 
 function App() {
 
@@ -41,6 +42,12 @@ function App() {
     <Heading>
         Placeholder text
     </Heading>
+
+    <Oscar>
+      <Heading>
+        Oscar goes to Leonardo DiCaprio!
+      </Heading>
+    </Oscar>
     </>
   )
 }
