@@ -1,12 +1,14 @@
+type HeadingProps = {
+    children: string
+}
 
 
 
-
-export const Heading = () =>{
+export const Heading = (props: HeadingProps) =>{
     return (
         <>
             <h2>
-                Placeholder Text
+                {props.children}
             </h2>
         </>
     )
