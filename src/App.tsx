@@ -43,11 +43,11 @@ function App() {
         Placeholder text
     </Heading>
 
-    {/* <Oscar>
+    <Oscar>
       <Heading>
         Oscar goes to Leonardo DiCaprio!
       </Heading>
-    </Oscar> */}
+    </Oscar>
     </>
   )
 }
