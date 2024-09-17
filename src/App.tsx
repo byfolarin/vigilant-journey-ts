@@ -31,8 +31,6 @@ function App() {
     ]
   
 
-
-
   return (
     <>
     <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
