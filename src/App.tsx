@@ -5,6 +5,7 @@ import { PersonList } from './Components/PersonList'
 import { Status } from './Components/Status'
 import { Heading } from './Components/Heading'
 import { Oscar } from './Components/Oscar'
+import Button from './Components/Button'
 
 function App() {
 
@@ -33,6 +34,9 @@ function App() {
 
   return (
     <>
+    <Button handleClick={()=>{
+      console.log('Button Click')
+    }} />
     <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
     <Person name ={personName} />
     <PersonList name={nameList}/>
