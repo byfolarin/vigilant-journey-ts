@@ -1,8 +1,14 @@
+interface ContainerProps{
+    styles: React.CSSProperties
+}
 
-const Container = () => {
+
+
+
+const Container = (props: ContainerProps) => {
   return (
-    <div>
-      
+    <div style={props.styles}>
+      Text Content goes here
     </div>
   )
 }
