@@ -5,7 +5,8 @@ import './App.css'
 // import { Status } from './Components/Status'
 // import { Heading } from './Components/Heading'
 // import { Oscar } from './Components/Oscar'
-import Button from './Components/Button'
+// import Button from './Components/Button'
+   import Input from './Components/Input'
 
 function App() {
 
@@ -32,10 +33,11 @@ function App() {
 
   return (
     <>
-    <Button handleClick={() =>{
+    {/* <Button handleClick={() =>{
       console.log('Button Clicked')
-    }}/>
+    }}/> */}
 
+   <Input value='' handleChange={(event)=> console.log(event)}/>
  
     {/* <Greet name ='Folarin'   isLoggedIn={true} /> */}
 
