@@ -1,4 +1,4 @@
-type PersonListProps ={
+interface PersonListProps {
     name:{
         first: String
         last: String
