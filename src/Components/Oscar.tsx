@@ -1,5 +1,5 @@
 
-type OscarProps = {
+interface OscarProps{
     children: React.ReactNode
 }
 

@@ -1,5 +1,5 @@
 
-type HeadingProps = {
+interface HeadingProps {
     children: string
 }
 

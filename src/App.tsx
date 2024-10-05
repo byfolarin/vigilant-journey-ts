@@ -2,9 +2,9 @@ import './App.css'
 // import { Greet } from './Components/Greet'
 // import { Person } from './Components/Person'
 // import { PersonList } from './Components/PersonList'
-import { Status } from './Components/Status'
-// import { Heading } from './Components/Heading'
-// import { Oscar } from './Components/Oscar'
+// import { Status } from './Components/Status'
+import { Heading } from './Components/Heading'
+import { Oscar } from './Components/Oscar'
 // import Button from './Components/Button'
 
 function App() {
@@ -46,19 +46,19 @@ function App() {
     {/* <PersonList name={nameList}/> */}
 
 
-    <Status status='error' />
+    {/* <Status status='error' />
 
-{/* 
-    <Heading>
+{/*  */}
+    {/* <Heading>
         Placeholder text
-    </Heading>
+    </Heading> */}
 
 
-    <Oscar>
+     <Oscar>
       <Heading>
         Oscar goes to Leonardo DiCaprio!
       </Heading>
-    </Oscar> */}  
+    </Oscar> 
 
 
 
