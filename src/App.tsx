@@ -6,7 +6,7 @@ import './App.css'
 // import { Heading } from './Components/Heading'
 // import { Oscar } from './Components/Oscar'
 // import Button from './Components/Button'
-  //  import Input from './Components/Input'
+   import Input from './Components/Input'
   import Container from './Components/Container'
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
       console.log('Button Clicked')
     }}/> */}
 
-   {/* <Input value='' handleChange={(event)=> console.log(event)}/> */}
+   <Input value='' handleChange={(event)=> console.log(event)}/>
  
     {/* <Greet name ='Folarin'   isLoggedIn={true} /> */}
 
