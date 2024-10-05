@@ -1,5 +1,5 @@
 interface ButtonProps{
-    handleClick: () => void
+    handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void
 }
 
 
