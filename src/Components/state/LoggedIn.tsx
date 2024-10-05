@@ -10,7 +10,7 @@ export const LoggedIn = () =>{
 
 
     const handleLogin =() =>{
-        setIsLoggedIn(true)
+        setIsLoggedIn(true)  
     }
     const handleLogout = () =>{
         setIsLoggedIn(false)
