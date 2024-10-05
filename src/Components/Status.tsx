@@ -1,4 +1,4 @@
-type StatusProps = {
+interface StatusProps {
     status: 'loading' | 'success' | 'error'
 }
 

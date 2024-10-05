@@ -1,8 +1,8 @@
 import './App.css'
 // import { Greet } from './Components/Greet'
 // import { Person } from './Components/Person'
-import { PersonList } from './Components/PersonList'
-// import { Status } from './Components/Status'
+// import { PersonList } from './Components/PersonList'
+import { Status } from './Components/Status'
 // import { Heading } from './Components/Heading'
 // import { Oscar } from './Components/Oscar'
 // import Button from './Components/Button'
@@ -14,20 +14,20 @@ function App() {
   //   last: 'Wayne',
   // }
 
-    const nameList = [ 
-      {
-        first: 'Bruce',
-        last: 'Wayne',
-      },
-      {
-        first: 'Clark',
-        last: 'Kent',
-      },
-      {
-        first: 'Princess',
-        last: 'Diana',
-      },
-    ]
+    // const nameList = [ 
+    //   {
+    //     first: 'Bruce',
+    //     last: 'Wayne',
+    //   },
+    //   {
+    //     first: 'Clark',
+    //     last: 'Kent',
+    //   },
+    //   {
+    //     first: 'Princess',
+    //     last: 'Diana',
+    //   },
+    // ]
   
 
   return (
@@ -43,12 +43,12 @@ function App() {
  {/* <Person name ={personName} /> */}
 
 
-    <PersonList name={nameList}/>
+    {/* <PersonList name={nameList}/> */}
 
 
-    {/* <Status status='success' />
+    <Status status='error' />
 
-
+{/* 
     <Heading>
         Placeholder text
     </Heading>
@@ -58,7 +58,7 @@ function App() {
       <Heading>
         Oscar goes to Leonardo DiCaprio!
       </Heading>
-    </Oscar> */} 
+    </Oscar> */}  
 
 
 
