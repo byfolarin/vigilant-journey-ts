@@ -6,8 +6,8 @@ import './App.css'
 // import { Heading } from './Components/Heading'
 // import { Oscar } from './Components/Oscar'
 // import Button from './Components/Button'
-   import Input from './Components/Input'
-  import Container from './Components/Container'
+  //  import Input from './Components/Input'
+  // import Container from './Components/Container'
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
       console.log('Button Clicked')
     }}/> */}
 
-   <Input value='' handleChange={(event)=> console.log(event)}/>
+   {/* <Input value='' handleChange={(event)=> console.log(event)}/> */}
  
     {/* <Greet name ='Folarin'   isLoggedIn={true} /> */}
 
@@ -62,8 +62,8 @@ function App() {
         Oscar goes to Leonardo DiCaprio!
       </Heading>
     </Oscar>  */}
-
-    <Container styles={{border:'1px solid black',padding:'1rem'}} />
+{/* 
+    <Container styles={{border:'1px solid black',padding:'1rem'}} /> */}
 
     </>
   )
