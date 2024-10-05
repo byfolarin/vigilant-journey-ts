@@ -1,4 +1,4 @@
-type ButtonProps ={
+interface ButtonProps{
     handleClick: () => void
 }
 
