@@ -37,7 +37,7 @@ function App() {
     }} /> */}
 
 
-    <Greet name ='Folarin' messageCount={20} isLoggedIn={false} />
+    <Greet name ='Folarin' messageCount={20} isLoggedIn={true} />
 
 
     {/* <Person name ={personName} />
