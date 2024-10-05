@@ -1,11 +1,11 @@
 import './App.css'
-import { Greet } from './Components/Greet'
+// import { Greet } from './Components/Greet'
 // import { Person } from './Components/Person'
 // import { PersonList } from './Components/PersonList'
 // import { Status } from './Components/Status'
-import { Heading } from './Components/Heading'
-import { Oscar } from './Components/Oscar'
-// import Button from './Components/Button'
+// import { Heading } from './Components/Heading'
+// import { Oscar } from './Components/Oscar'
+import Button from './Components/Button'
 
 function App() {
 
@@ -32,12 +32,12 @@ function App() {
 
   return (
     <>
-    {/* <Button handleClick={()=>{
-      console.log('Button Click')
-    }} /> */}
+    <Button handleClick={() =>{
+      console.log('Button Clicked')
+    }}/>
 
-
-    <Greet name ='Folarin'   isLoggedIn={true} />
+ 
+    {/* <Greet name ='Folarin'   isLoggedIn={true} /> */}
 
 
  {/* <Person name ={personName} /> */}
@@ -52,13 +52,13 @@ function App() {
     {/* <Heading>
         Placeholder text
     </Heading> */}
-
+{/* 
 
      <Oscar>
       <Heading>
         Oscar goes to Leonardo DiCaprio!
       </Heading>
-    </Oscar> 
+    </Oscar>  */}
 
 
 
