@@ -1,5 +1,5 @@
 import './App.css'
-// import { Greet } from './Components/Greet'
+import { Greet } from './Components/Greet'
 // import { Person } from './Components/Person'
 // import { PersonList } from './Components/PersonList'
 // import { Status } from './Components/Status'
@@ -37,7 +37,7 @@ function App() {
     }} /> */}
 
 
-    {/* <Greet name ='Folarin' messageCount={20} isLoggedIn={true} /> */}
+    <Greet name ='Folarin'   isLoggedIn={true} />
 
 
  {/* <Person name ={personName} /> */}
