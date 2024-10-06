@@ -1,6 +1,6 @@
 
 
-const Counter = () => {
+export default function Counter() {
   return (
     <div>
       
@@ -8,5 +8,4 @@ const Counter = () => {
   )
 }
 
-export default Counter
 
